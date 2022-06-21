@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f23b96de-75f6-40f5-8edd-c37358e07d83" name="Changes" comment="feddisch">
-      <change afterPath="$PROJECT_DIR$/src/Ringpuffer.java" afterDir="false" />
+    <list default="true" id="f23b96de-75f6-40f5-8edd-c37358e07d83" name="Changes" comment="alles außer Tests">
+      <change afterPath="$PROJECT_DIR$/src/RingpufferTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
-    <list id="781e1486-d12c-4c41-afc2-be2633b13905" name="Changes by Patty" comment="" />
+    <list id="781e1486-d12c-4c41-afc2-be2633b13905" name="Changes by Patty" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Ringpuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ringpuffer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -57,48 +58,51 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Ue4" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DynArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RingpufferTest">
+    <configuration name="RingpufferTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ue4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DynArrayTest" />
+      <option name="MAIN_CLASS_NAME" value="RingpufferTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynArrayTest.addFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RingpufferTest.addFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ue4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DynArrayTest" />
+      <option name="MAIN_CLASS_NAME" value="RingpufferTest" />
       <option name="METHOD_NAME" value="addFirst" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynArrayTest.removeFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RingpufferTest.addLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ue4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DynArrayTest" />
+      <option name="MAIN_CLASS_NAME" value="RingpufferTest" />
+      <option name="METHOD_NAME" value="addLast" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RingpufferTest.removeFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ue4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RingpufferTest" />
       <option name="METHOD_NAME" value="removeFirst" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynArrayTest.removeLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RingpufferTest.set" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ue4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DynArrayTest" />
-      <option name="METHOD_NAME" value="removeLast" />
+      <option name="MAIN_CLASS_NAME" value="RingpufferTest" />
+      <option name="METHOD_NAME" value="set" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.DynArrayTest" />
-        <item itemvalue="JUnit.DynArrayTest.removeLast" />
-        <item itemvalue="JUnit.DynArrayTest.removeFirst" />
-        <item itemvalue="JUnit.DynArrayTest.addFirst" />
+        <item itemvalue="JUnit.RingpufferTest" />
+        <item itemvalue="JUnit.RingpufferTest.removeFirst" />
+        <item itemvalue="JUnit.RingpufferTest.addFirst" />
+        <item itemvalue="JUnit.RingpufferTest.addLast" />
+        <item itemvalue="JUnit.RingpufferTest.set" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655801642842</updated>
       <workItem from="1655801644065" duration="6022000" />
-      <workItem from="1655807744019" duration="4796000" />
+      <workItem from="1655807744019" duration="6165000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1655801675977</created>
@@ -139,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655807706710</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="alles außer Tests">
+      <created>1655813739682</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655813739682</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +170,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="feddisch" />
-    <option name="LAST_COMMIT_MESSAGE" value="feddisch" />
+    <MESSAGE value="alles außer Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="alles außer Tests" />
   </component>
 </project>
