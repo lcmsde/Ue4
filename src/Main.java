@@ -7,7 +7,7 @@ public class Main {
         DynArray speicher = new DynArray<Integer>();
         speicher.set(0,a);
         System.out.println(speicher.get(0));
-        System.out.println(5/4);
+        System.out.println(1%4);
     }
 
 }
